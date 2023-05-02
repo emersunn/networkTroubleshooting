@@ -7,7 +7,7 @@ This Python script helps diagnose and troubleshoot network issues, such as DNS r
 - Ping test
 - DNS resolution test
 - Speed test (download and upload)
-- Firewall test (10 popular ports)
+- Firewall test (10 most used ports)
 
 ## Requirements
 
