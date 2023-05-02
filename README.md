@@ -21,6 +21,16 @@ This Python script helps diagnose and troubleshoot network issues, such as DNS r
 
 ```pip install speedtest-cli```
 
+## Customization
+
+You can customize the following variables in the script:
+
+- host: Default IP address for the ping test (default: "8.8.8.8")
+- domain: Default domain for the DNS resolution test (default: "www.google.com")
+- ports: List of ports to test in the firewall test (default: (21, 22, 23, 25, 53, 80, 110, 443, 445, 3389))
+
+To customize these variables, simply edit their values in the ```network_troubleshooting.py``` script before running it.
+
 ## Usage
 
 Run the script from the command line:
@@ -29,7 +39,7 @@ Run the script from the command line:
 
 The script will prompt you to enter an IP address for the ping test and a domain for the DNS resolution test. If you don't provide any input and press enter, the default values will be used (8.8.8.8 for IP address and www.google.com for domain).
 
-After running the tests, the script will display the report in the console and save it as a Markdown file on your Desktop (network_troubleshooting_report.md).
+After running the tests, the script will display the report in the console and save it as a Markdown file on your Desktop (```network_troubleshooting_report.md```).
 
 
 
