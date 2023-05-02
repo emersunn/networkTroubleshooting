@@ -23,7 +23,7 @@ This Python script helps diagnose and troubleshoot network issues, such as DNS r
 
 ## Customization
 
-You can customize the following variables in the script:
+(Optional) You can customize the following variables in the script:
 
 - host: Default IP address for the ping test (default: "8.8.8.8")
 - domain: Default domain for the DNS resolution test (default: "www.google.com")
